@@ -10,18 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="encabezado">
+    <div class="encabezado" onclick="alert('qué hacés clickeando esto? así no va eh, bot')">
       <h1>Elegí tu personaje</h1>
     </div>
     <div class="contenedor">
-      <div class="rect">
-        <img src="img/mrs-pacman.png" alt="mrs. pacman" class="mrsPacman">
-        <span>personaje <br>1</span>
+      <div class="rect" onclick="rickroll('rick')">
+        <div class="imagen">
+          <img src="img/mrs-pacman.png" alt="mrs. pacman" class="mrsPacman">
+        </div>
+        <div class="texto">
+          <span>personaje <br>1</span>
+        </div>
       </div>
-      <div class="rect">
-        <img src="img/mr-pacman.png" alt="mr pacman" class ="mrPacman">
-        <span>personaje <br>2</span>
+      <div class="rect" onclick="rickroll('pancho')">
+        <div class="imagen">
+          <img src="img/mr-pacman.png" alt="mr pacman" class ="mrPacman">
+        </div>
+        <div class="texto"> 
+          <span>personaje <br>2</span> 
+        </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
